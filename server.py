@@ -1,5 +1,5 @@
 from flask_app import app
-from flask_app.controllers import controller_users
+from flask_app.controllers import controller_users, controller_posts
 
 
 if __name__=='__main__':

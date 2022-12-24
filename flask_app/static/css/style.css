@@ -1,59 +1,22 @@
-.tester{
+*{
+    margin: 0;
+    padding: 0;
+    /* border: red dotted 1px; */
+}
+
+body{
+    background-image: url(imgs/shapes\-main.png);
+    font-family: var(--font-style);
+    color: rgb(184, 224, 255);
+}
+
+.jumbotron{
+    background-color: #001829;
+    /* background: transparent; */
+}
+li {
     display: flex;
-    justify-content: right;
-    position: absolute;
-    left: 150px;
-    color: rgb(255, 255, 255);
-    opacity: 100%;
-    text-decoration:none;
+    justify-content: center;
+    margin-top: 5px;
 }
 
-.lin {
-    color: white;
-    margin: 25px;
-}
-
-.custom-shape-divider-bottom-1670979253 {
-    position: relative;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-    
-}
-
-.custom-shape-divider-bottom-1670979253 svg {
-    position: relative;
-    display: block;
-    width: calc(300% + 2.3px);
-    height: 123px;
-
-}
-
-.custom-shape-divider-bottom-1670979253 .shape-fill {
-    fill: #005A9F;
-}
-
-
-
-.custom-shape-divider-top-1670979373 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-}
-
-.custom-shape-divider-top-1670979373 svg {
-    position: relative;
-    display: block;
-    width: calc(300% + 1.3px);
-    height: 123px;
-}
-
-.custom-shape-divider-top-1670979373 .shape-fill {
-    fill: #005A9F;
-}

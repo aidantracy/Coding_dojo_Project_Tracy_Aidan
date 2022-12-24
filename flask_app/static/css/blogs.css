@@ -1,0 +1,103 @@
+
+.blogs .card {
+    margin: 25px auto;
+    display: flex;
+    justify-content: center;
+    width: 600px;
+}
+
+.icon {
+    height: 25px;
+}
+.icon:hover {
+    height: 26px;
+}
+.icon:active{
+    transform:rotate(5deg);
+}
+
+
+/* new blog */
+.form-box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    width: 400px;
+    padding: 40px;
+    background: #005a9f;
+    box-shadow: 0 15px 25px rgba(2,123,221, 0.4);
+    border-radius: 10px;
+}
+.form-box2 h2{
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+}
+.form-box2 p{
+    color: whitesmoke;
+    padding: 3px;
+    
+}
+.form-box2 .user-box2 input{
+    position: relative;
+    width: 100%;
+    padding: 8px 0 0 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 25px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+.form-box2 .user-box2 label{
+    position: relative;
+    left: 0;
+    top: -60px;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+}
+.form-box2 .user-box2 input:focus~label,
+.form-box2 .user-box2 input:valid~label {
+    top: -95px;
+    left: 0;
+    color: #b8e0ff;
+    font-size: 12px;
+}
+
+#submit2{
+    padding: 10px 20px;
+    color: #2080ca;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    letter-spacing: 4px;
+    border: 1px solid #2080ca;
+    margin: auto;
+}
+
+#submit2:hover {
+    background:rgba(2,123,221, .7);
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #b8e0ff, 0 0 25px #b8e0ff, 0 0 50px, #b8e0ff, 0 0 100px #b8e0ff;
+}
+/* ************************************* */
+
+/* The display for the blogs */
+.card{
+    background-color: #005a9f;
+    color: whitesmoke
+}
+
+h6 {
+    color: #64b5f3;
+}
+/* ******************* */
